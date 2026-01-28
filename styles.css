@@ -396,7 +396,27 @@ body {
 }
 
 #pokemon {
-    background-color: rgba(246, 88, 88, 0.75);
+    background-color: rgba(59, 206, 66, 0.75);
+    border-radius: 5px;
+    color: #000000;
+    padding: 2px 4px;
+    position: absolute;
+    top: 5px;
+    left: 15px; 
+}
+
+#display {
+    background-color: rgba(238, 165, 220, 0.75);
+    border-radius: 5px;
+    color: #000000;
+    padding: 2px 4px;
+    position: absolute;
+    top: 5px;
+    left: 15px; 
+}
+
+#cat {
+    background-color: rgba(224, 141, 46, 0.75);
     border-radius: 5px;
     color: #000000;
     padding: 2px 4px;
@@ -406,7 +426,7 @@ body {
 }
 
 #family {
-    background-color: rgba(0, 221, 255, 0.765);
+    background-color: rgba(72, 222, 245, 0.765);
     border-radius: 5px;
     color: #000000;
     padding: 2px 4px;
@@ -416,13 +436,29 @@ body {
 }
 
 #games {
-    background-color: rgba(255, 242, 0, 0.765);
+    background-color: rgba(230, 222, 79, 0.765);
     border-radius: 5px;
     color: #000000;
     padding: 2px 4px;
     position: absolute;
     top: 5px;
     left: 15px; 
+}
+
+.swiper-slide img.game-img{
+  object-fit: cover;
+  object-position: center 50%;
+}
+
+.swiper-slide img.display-img{
+  object-fit: cover;
+  object-position: center 70%;
+}
+
+
+.paw-text {
+  font-family: system-ui, sans-serif;
+  color: var(--uhHighLight);
 }
 
 #html {
